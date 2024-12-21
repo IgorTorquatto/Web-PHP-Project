@@ -37,25 +37,25 @@
 
     <section class="container mb-5 mt-5 d-flex justify-content-center flex-column align-items-center ">
       <h1>Formulário</h1>
-      <form class="p-3 d-flex flex-column gap-3" id="form">
+      <form class="p-3 d-flex flex-column gap-3" id="form" action="./contato.php" method="POST">
         <div class="form-group">
           <label for="inputEmail">E-mail</label>
-          <input type="email" class="form-control mt-2" id="inputEmail" placeholder="Insira seu endereço de e-mail">
+          <input type="email" class="form-control mt-2" id="inputEmail" name="inputEmail" placeholder="Insira seu endereço de e-mail">
           <div class="error-message d-none">Campo de e-mail inválido!</div>
         </div>
         <div class="form-group">
           <label for="inputPassword">Senha</label>
-          <input type="password" class="form-control mt-2" id="inputPassword" placeholder="Insira sua senha">
+          <input type="password" class="form-control mt-2" id="inputPassword" name="inputPassword" placeholder="Insira sua senha">
           <div class="error-message d-none">Campo de senha inválido!</div>
         </div>
         <div class="form-group">
           <label for="inputAssunto">Assunto</label>
-          <input type="text" class="form-control mt-2" id="inputAssunto" placeholder="Insira o assunto">
+          <input type="text" class="form-control mt-2" id="inputAssunto" name="inputAssunto" placeholder="Insira o assunto">
           <div class="error-message d-none">Campo de assunto vazio.</div>
         </div>
         <div class="form-group">
           <label for="inputMessage">Mensagem</label>
-          <textarea class="form-control mt-2" id="inputMessage" rows="3" placeholder="Insira sua mensagem aqui"></textarea>
+          <textarea class="form-control mt-2" id="inputMessage" name="inputMessage" rows="3" placeholder="Insira sua mensagem aqui"></textarea>
           <div class="error-message d-none">Campo de mensagem vazio.</div>
         </div>
         <div class="d-flex justify-content-center">
