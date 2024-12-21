@@ -13,6 +13,10 @@ body {
   width: 50%;
 }
 
+.error-message{
+  color: #FF0000;
+}
+
 @media (max-width: 500px) {
   #form{
     width: 300px;
