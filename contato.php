@@ -21,18 +21,18 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     }
 
     if (empty($assunto)) {
-        $erros[] = "O campo Assunto está vazio.";
+        $errors[] = "O campo Assunto está vazio.";
     }
 
     if (empty($mensagem)) {
-        $erros[] = "O campo Mensagem está vazio.";
+        $errors[] = "O campo Mensagem está vazio.";
     }
 
     //Se existem erros vamos apresentá-los
-    if(!empty($erros)){
+    if(!empty($errors)){
         echo "<h2>Erros encontrados pelo back-end:</h2>";
         echo "<ul>";
-        foreach ($erros as $erro){
+        foreach ($errors as $erro){
             echo "<li>". $erro . "</li>";
         }
         echo "</ul>";

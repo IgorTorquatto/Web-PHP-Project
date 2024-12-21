@@ -51,6 +51,6 @@ form.addEventListener('submit',(event)=>{
     }
 
     if(isValid){
-        alert("Formulário enviado com sucesso!");
+        form.submit();
     }
 });
