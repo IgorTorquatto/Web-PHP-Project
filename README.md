@@ -65,6 +65,20 @@ A estrutura de pastas e arquivos do projeto é organizada da seguinte forma:
 
 4. Teste o formulário preenchendo os campos e verificando a validação.
 
+## Imagens
+
+Parte da tela inicial com o formulário:
+![Formulário](./assets/capturas%20de%20tela/Captura%20de%20Tela%20(52).png)
+
+Apresentação de erros, caso o formulário não esteja totalmente preenchido:
+![Formulário](./assets/capturas%20de%20tela/Captura%20de%20Tela%20(55).png)
+
+Preenchendo todos os campos do formulário:
+![Formulário](./assets/capturas%20de%20tela/Captura%20de%20Tela%20(53).png)
+
+Apresentando as informações fornecidas para o usuário:
+![Formulário](./assets/capturas%20de%20tela/Captura%20de%20Tela%20(54).png)
+
 ## Possibilidades de Atualização
 
 - Implementar o uso do arquivo `db.sql` para armazenar os dados em um banco de dados relacional.
